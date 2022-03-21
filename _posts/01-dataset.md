@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Code"
-author: sal
+author: "Mihee Lee"
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
 ---
