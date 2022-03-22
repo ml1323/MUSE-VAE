@@ -18,7 +18,7 @@ Each of the environments was used to simulate 500 scenes (amounting to 50,000 to
 + We use subset of the PFSD and make the train/val/test set with 40/2/4 different synthetic environments, respectively. It is the binary map consisting of navigable (white-colored) and non-navigable (black-colored) space of the entire environment of one scenario. An agent finds a path by moving from a room to another room using the exit between obstacles.
 
 
-## Download dataset
+## Download PFSD
 
 **[Raw data]()**
 
