@@ -1,7 +1,7 @@
 title: "Mihee"
 email: augustdemi@gmail.com
 timezone: UTC
-baseurl: "/muse2"
+baseurl: "/MUSE-VAE"
 permalink: "/:title/"
 logo: 'assets/images/rutgers_logo.png'
 favicon: 'assets/images/favicon.ico'
