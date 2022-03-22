@@ -2,7 +2,7 @@
 layout: post
 title:  "Code"
 author: "Mihee Lee"
-categories: [ muse-vae, code ]
+categories: [ MUSE-VAE, code ]
 image: assets/images/5.jpg
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
