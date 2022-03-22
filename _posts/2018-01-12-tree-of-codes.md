@@ -2,6 +2,7 @@
 layout: post
 title:  "Dataset"
 author: "Mihee Lee"
+categories: [ muse-vae, dataset ]
 image: assets/images/8.jpg
 ---
 
@@ -14,9 +15,6 @@ Each of the environments was used to simulate 500 scenes (amounting to 50,000 to
 
 + We use subset of the PFSD and make the train/val/test set with 40/2/4 different synthetic environments, respectively. It is the binary map consisting of navigable (white-colored) and non-navigable (black-colored) space of the entire environment of one scenario. An agent finds a path by moving from a room to another room using the exit between obstacles.
 
+**[Raw data]()**
 
-**<a href="#">Raw data</a>**
-
-**<a href="https://drive.google.com/file/d/1Wm5CTBrxozg9zMKvS2l9M3XtHhWyy3g9/view?usp=sharing">Preprocessed data for MUSE-VAE</a>**
-
-
+**[Preprocessed data for MUSE-VAE](https://drive.google.com/file/d/1Wm5CTBrxozg9zMKvS2l9M3XtHhWyy3g9/view?usp=sharing)**
