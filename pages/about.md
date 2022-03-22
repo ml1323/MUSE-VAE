@@ -5,4 +5,4 @@ permalink: "/about/"
 #image: assets/images/screenshot.png
 ---
 
-My name is **Mihee Lee**.
+**MUSE-VAE** : Multi-Scale VAE for Environment-Aware Long Term Trajectory Prediction
