@@ -6,7 +6,7 @@ background: '/img/bg-index.jpg'
 
 <!-- Home Intro
 ================================================== -->
-{% if page.url == "/" %} 
+{% if page.url == "/" %}
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <!--<div class="col-md-8">-->
@@ -14,25 +14,38 @@ background: '/img/bg-index.jpg'
       <!--<p class="lead mb-4">Multi-Scale VAE for Environment-Aware Long Term Trajectory Prediction</p>-->
       <!--<a href="https://arxiv.org/abs/2201.07189" class="btn btn-dark text-white px-5 btn-lg">Paper</a>-->
     <!--</div>-->
+    <!--<div class="text-center mx-auto mb-5 col-sm-8">-->
     <div class="col-md-12">
       <center>
       <h2 id="muse-vae--multi-scale-vae-for-environment-aware-long-term-trajectory-prediction">MUSE-VAE : Multi-Scale VAE for Environment-Aware Long Term Trajectory Prediction</h2>
       <h4><em>CVPR 2022</em></h4>
-      <h4>Mihee Lee, Samuel S. Sohn, Seonghyeon Moon, Sejong Yoon, Mubbasir Kapadia, Vladimir Pavlovic</h4>
-      <h4>Rutgers University</h4>
+      <h5>Mihee Lee, Samuel S. Sohn, Seonghyeon Moon, Sejong Yoon, Mubbasir Kapadia, Vladimir Pavlovic</h5>
+      <h5>Rutgers University, The College of New Jersey</h5>
       </center>
       <br>
 
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/web_intro.jpg">
       <h5>Abstract</h5>
       <p>Accurate long-term trajectory prediction in complex scenes, where multiple agents (e.g., pedestrians or vehicles) interact with each other and the environment while attempting to accomplish diverse and often unknown goals, is a challenging stochastic forecasting problem. In this work, we propose MUSE-VAE, a new probabilistic modeling framework based on a cascade of Conditional VAEs, which tackles the long-term, uncertain trajectory prediction task using a coarse-to-fine multi-factor forecasting architecture. In its Macro stage, the model learns a joint pixel-space representation of two key factors, the underlying environment and the agent movements, to predict the long and short-term motion goals. Conditioned on them, the Micro stage learns a fine-grained spatio-temporal representation for the prediction of individual agent trajectories. The VAE backbones across the two stages make it possible to naturally account for the joint uncertainty at both levels of granularity. As a result, MUSE-VAE offers diverse and simultaneously more accurate predictions compared to the current state-of-the-art. We demonstrate these assertions through a comprehensive set of experiments on nuScenes and SDD benchmarks as well as PFSD, a new synthetic dataset, which challenges the forecasting ability of models on complex agent-environment interaction scenarios.</p>
 
       <a href="https://arxiv.org/abs/2201.07189.pdf" class="btn btn-dark text-white px-4 btn-lg">Paper</a>
+
       <!--<p><a href="https://arxiv.org/pdf/2201.07189.pdf">Paper</a></p>-->
 
     </div>
 
+    <!--<div class="col-md-4 text-right pl-0 pl-lg-4">-->
+      <!--<img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.jpg">-->
+    <!--</div>-->
   </div>
 </div>
+
+
+<div class="text-center mx-auto mb-5 col-sm-10">
+  <img class="featured-image text-center mx-auto rounded" src="/muse2/assets/images/arch.jpg" alt="About">
+</div>
+
+
 {% endif %}
 
 <!-- Featured
