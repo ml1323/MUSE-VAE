@@ -16,21 +16,28 @@ background: '/img/bg-index.jpg'
     <!--</div>-->
     <!--<div class="text-center mx-auto mb-5 col-sm-8">-->
     <div class="col-md-12">
-      <center>
-      <h2 id="muse-vae--multi-scale-vae-for-environment-aware-long-term-trajectory-prediction">MUSE-VAE : Multi-Scale VAE for Environment-Aware Long Term Trajectory Prediction</h2>
-      <h4><em>CVPR 2022</em></h4>
-      <p style="font-family:verdana">Mihee Lee, Samuel S. Sohn, Seonghyeon Moon, Sejong Yoon, Mubbasir Kapadia, Vladimir Pavlovic</p>
-      <p style="font-family:verdana">Rutgers University, The College of New Jersey</p>
-      </center>
+          <center>
+          <h2 id="muse-vae">MUSE-VAE : Multi-Scale VAE for Environment-Aware Long Term Trajectory Prediction</h2>
+          <h4><em>CVPR 2022</em></h4>
+          <!--<p style="font-family:verdana">Mihee Lee, Samuel S. Sohn, Seonghyeon Moon, Sejong Yoon, Mubbasir Kapadia, Vladimir Pavlovic</p>-->
+          <!--<p style="font-family:verdana">Rutgers University, The College of New Jersey</p>-->
+          <p style="font-family:verdana">Mihee Lee, ml1323@rutgers.edu, Rutgers University</p>
+          <p style="font-family:verdana">Samuel S. Sohn, samuel.sohn@rutgers.edu, Rutgers University</p>
+          <p style="font-family:verdana">Seonghyeon Moon, sm2062@cs.rutgers.edu, Rutgers University</p>
+          <p style="font-family:verdana">Sejong Yoon, yoons@tcnj.edu, The College of New Jersey</p>
+          <p style="font-family:verdana">Mubbasir Kapadia, mubbasir.kapadia@rutgers.edu, Rutgers University</p>
+          <p style="font-family:verdana">Vladimir Pavlovic, vladimir@cs.rutgers.edu, Rutgers University</p>
+              <p><a href="https://arxiv.org/pdf/2201.07189.pdf">Paper</a>  &nbsp; &nbsp;&nbsp; &nbsp; <a href="https://github.com/ml1323/musevae">Code</a></p>
 
-      <br>
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/web_intro.jpg">
-      <br>
+          <br/>
+          <img class="intro" height="500" src="{{site.baseurl}}/assets/images/web_intro.jpg">
+          <br/>
 
-      <h5>Abstract</h5>
-      <p>Accurate long-term trajectory prediction in complex scenes, where multiple agents (e.g., pedestrians or vehicles) interact with each other and the environment while attempting to accomplish diverse and often unknown goals, is a challenging stochastic forecasting problem. In this work, we propose MUSE-VAE, a new probabilistic modeling framework based on a cascade of Conditional VAEs, which tackles the long-term, uncertain trajectory prediction task using a coarse-to-fine multi-factor forecasting architecture. In its Macro stage, the model learns a joint pixel-space representation of two key factors, the underlying environment and the agent movements, to predict the long and short-term motion goals. Conditioned on them, the Micro stage learns a fine-grained spatio-temporal representation for the prediction of individual agent trajectories. The VAE backbones across the two stages make it possible to naturally account for the joint uncertainty at both levels of granularity. As a result, MUSE-VAE offers diverse and simultaneously more accurate predictions compared to the current state-of-the-art. We demonstrate these assertions through a comprehensive set of experiments on nuScenes and SDD benchmarks as well as PFSD, a new synthetic dataset, which challenges the forecasting ability of models on complex agent-environment interaction scenarios.</p>
+          <h5>Abstract</h5>
+          </center>
+        <p>Accurate long-term trajectory prediction in complex scenes, where multiple agents (e.g., pedestrians or vehicles) interact with each other and the environment while attempting to accomplish diverse and often unknown goals, is a challenging stochastic forecasting problem. In this work, we propose MUSE-VAE, a new probabilistic modeling framework based on a cascade of Conditional VAEs, which tackles the long-term, uncertain trajectory prediction task using a coarse-to-fine multi-factor forecasting architecture. In its Macro stage, the model learns a joint pixel-space representation of two key factors, the underlying environment and the agent movements, to predict the long and short-term motion goals. Conditioned on them, the Micro stage learns a fine-grained spatio-temporal representation for the prediction of individual agent trajectories. The VAE backbones across the two stages make it possible to naturally account for the joint uncertainty at both levels of granularity. As a result, MUSE-VAE offers diverse and simultaneously more accurate predictions compared to the current state-of-the-art. We demonstrate these assertions through a comprehensive set of experiments on nuScenes and SDD benchmarks as well as PFSD, a new synthetic dataset, which challenges the forecasting ability of models on complex agent-environment interaction scenarios.</p>
 
-      <a href="https://arxiv.org/abs/2201.07189.pdf" class="btn btn-dark text-white px-4 btn-lg">Paper</a>
+      <!--<a href="https://arxiv.org/abs/2201.07189.pdf" class="btn btn-dark text-white px-4 btn-lg">Paper</a>-->
 
       <!--<p><a href="https://arxiv.org/pdf/2201.07189.pdf">Paper</a></p>-->
 
@@ -44,7 +51,8 @@ background: '/img/bg-index.jpg'
 
 
 <div class="text-center mx-auto mb-5 col-sm-10">
-  <img class="featured-image text-center mx-auto rounded" src="{{site.baseurl}}/assets/images/arch.jpg">
+    <h5>Architecture</h5>
+    <img class="featured-image text-center mx-auto rounded" src="{{site.baseurl}}/assets/images/arch.jpg">
 </div>
 
 
@@ -62,6 +70,29 @@ background: '/img/bg-index.jpg'
   {% endfor %}
   </div>
 </section>
+
+<div class="col-md-12">
+<h3 id="bibtex">BibTeX</h3>
+
+<pre><code>
+    @InProceedings{Lee_2022_CVPR,
+    author    = {Mihee Lee, Samuel S. Sohn, Seonghyeon Moon, Sejong Yoon, Mubbasir Kapadia, Vladimir Pavlovic},
+    title     = {Multi-Scale VAE for Environment-Aware Long Term Trajectory Prediction},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {-}
+}
+</code></pre>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>
+    The research was supported in part by NSF awards:  IIS-1703883, IIS-1955404, IIS-1955365, RETTL-2119265, and EAGER-2122119.
+</p>
+<!-- `multimarkdown --process-html -o index.{html,md}` -->
+
+</div>
 
 <!-- Posts List with Sidebar (except featured)
 ================================================== -->
