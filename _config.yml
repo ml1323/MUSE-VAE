@@ -23,10 +23,10 @@ sass:
 ganalytics: UA-113961478-1
 
 # Authors
-authors:
-  sal:
-    name: "Mihee Lee"
-    display_name: "Mihee Lee"
+# authors:
+#   sal:
+#     name: "Mihee Lee"
+#     display_name: "Mihee Lee"
 #    avatar: 'assets/images/sal.png'
 #    email: wowthemesnet@gmail.com
 #    web: https://www.wowthemes.net/category/jekyll-themes/
@@ -34,7 +34,7 @@ authors:
 #    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
 
 # Social
-social:
+# social:
 #  linkedin: "https://www.linkedin.com/in/mihee-lee-11463a131/"
   #instagram: https://www.instagram.com/bootstrapstarter/
   #facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
